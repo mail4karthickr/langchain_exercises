@@ -1,3 +1,19 @@
-/venv
+# Byte-compiled / cache files
 __pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+
+# VSCode settings (optional)
+.vscode/
+
+# Environment variables
 .env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Streamlit static files
+.streamlit/config.toml

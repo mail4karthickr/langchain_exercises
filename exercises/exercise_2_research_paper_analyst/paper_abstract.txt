@@ -1,0 +1,76 @@
+The widespread use of ChatGPT and other emerging technology powered by generative
+artificial intelligence (AI) has drawn much attention to potential ethical issues, especially in
+high-stakes applications such as healthcare.1–3 However, less clear is how to resolve such
+issues beyond following guidelines and regulations that are still under discussion and
+development. On the other hand, other types of generative AI have been used to synthesize
+images and other types of data for research and practical purposes, which have resolved some
+ethical issues and exposed other ethical issues,4,5 but such technology is less often the focus
+of ongoing ethical discussions. Here we highlight gaps in current ethical discussions of
+generative AI via a systematic scoping review of relevant existing research in healthcare, and
+reduce the gaps by proposing an ethics checklist for comprehensive assessment and
+transparent documentation of ethical discussions in generative AI development. While the
+checklist can be readily integrated into the current peer review and publication system to
+enhance generative AI research, it may also be used in broader settings to disclose ethicsrelated considerations in generative AI-powered products (or real-life applications of such
+products) to help users establish reasonable trust in their capabilities.
+
+Current ethical discussions on generative AI in healthcare
+We conducted a systematic scoping review to analyse current ethical discussions on
+generative AI in healthcare. Our search in four major academic research databases for
+relevant publications from January 2013 to July 2023 yielded 2859 articles (see Methods for
+detailed search strategy and Supplementary Figure S1 for the PRISMA flow diagram), of
+which 193 articles were included for analysis based on application data modality (text, image,
+or structured data), ethical issues discussed, generative AI involved, and whether generative
+AI causes or offers technical solutions for issues raised.
+
+Generative AI for text data-based healthcare
+Forty-one of the 193 articles discussed ethical considerations pertaining to generative AI
+applications for text data, with 20 articles describing methodological developments or
+applications of generative AI and the other 21 articles describing review-type works on this
+topic. Although some of these review-type articles used the general term “generative AI”, the
+main body and supporting evidence focused on LLMs. Twenty-nine articles had in-depth
+discussions on ethical issues, whereas the other 12 articles only briefly touched on some
+ethical aspects.
+Among the 41 articles, 29 articles focused on discussing ethical issues caused by LLMs (and
+specifically by GPT in 16 of the articles), covering a wide range of application scenarios and
+considered the application of all 10 ethical principles identified in the review (see Figure 1),
+as well as other less discussed concerns such as human-AI interaction, and the rights of
+LLMs to be considered as co-authors in scientific papers. One paper only commented briefly
+on the need for ethical considerations in LLMs and is summarised in the “Others” category.
+Although all ethical principles are equally important, some are discussed more often than
+others, e.g., non-maleficence (also referred to in the literature as ‘benevolence’), equity, and
+privacy.
+Fifteen of the 41 articles aimed to resolve some existing ethical issues (for example,
+confidentiality of medical data) by using LLMs and other generative AI (e.g., GAN,
+autoencoder or diffusion), such as, to reduce privacy concerns by generating synthetic
+medical text, to reduce disparity by providing accessible services and assistance, to detect
+health-related misinformation, to generate trusted content, and to improve accountability or
+transparency over existing approaches. While most articles focused on either identifying
+ethical issues caused by generative AI or proposing generative AI-based solutions, three
+articles discussed both to provide a more balanced perspective.
+
+Generative AI for image and structured data-based healthcare
+Unlike the diverse application scenarios of generative AI based on text data, for image and
+structured data, this use of generative AI focuses on data synthesis and encryption. Hence the
+majority of articles discussed the methodological developments of generative AI as giving
+rise to a more distinctive and focused set of ethical issues.
+5
+Notably, of the 98 articles on image data and 58 articles on structured data, more than half
+(n=63 for image data and n=33 for structured data) only mentioned ethical considerations as a
+brief motivation for methodological developments or as a general discussion point. The rest
+included more in-depth discussions or evaluations of ethical issues. Among these 155 articles
+(as one article covered multiple modalities), 11 articles were review-type work, where 10
+articles reviewed methods that mentioned one or two ethical perspectives, and only one
+article24 discussed detailed ethical concerns on generative AI applications.
+Resolving privacy issues was the main aim of articles for these two data modalities (n=74 for
+image data and n=50 for structured data; see Figure 1), predominantly by generating synthetic
+data using GAN. Eight articles on image data and 9 articles on structured data used
+generative AI to reduce bias, e.g., by synthesizing data for under-represented subgroups in
+existing databases. For both data modalities, we did not see explicit discussions on resolving
+autonomy, integrity, or morality issues using generative AI, and for structured data the articles
+additionally lacked discussions on trust or transparency.
+Only 11 articles for image data selectively discussed some ethical issues that generative AI
+can give rise to, without specific discussions regarding autonomy, integrity, or morality. For
+structured data, only 4 articles discussed equity, privacy, or data security issues caused by
+generative AI. Only two articles on structured data included both the cause and resolving
+perspectives by discussing ethical issues that may arise from limitations of methods
+proposed, specifically bias induced when synthesizing data in order to resolve privacy issues.
