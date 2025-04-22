@@ -42,7 +42,9 @@ excersise_options = {
     "Social Media Marketing Analyst": "exercises.exercise_3_social_media_marketing_analyst.main",
     "IT Support Analyst": "exercises.exercise_4_it_support_analyst.main",
     "ChatBot": "exercises.exercise_5_conversation_memory.main",
-    "Linking Multiple Chains": "exercises.exercise_6_linking_multiple_chains.main"
+    "Linking Multiple Chains": "exercises.exercise_6_linking_multiple_chains.main",
+    "Branching and Merging Chains": "exercises.exercise_7_branching_merging_chains.main",
+    "Routing Chains": "exercises.exercise_8_routing_chains.main"
 }
 
 selected_excercise = st.sidebar.radio("Select an excersise:", list(excersise_options.keys()))
