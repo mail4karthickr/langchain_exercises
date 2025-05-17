@@ -2,9 +2,9 @@ from pathlib import Path
 
 class FileUtils:
     @staticmethod
-    def contents(file_name: str, base_dir: str = ".") -> str:
+    def contents(file_name: str, ext: str = "txt", base_dir: str = ".") -> str:
         """
-        Reads the contents of a .txt file from a specified base directory.
+        Reads the contents of a file from a specified base directory.
 
         Args:
             file_name (str): Name of the file (without extension).
@@ -16,7 +16,7 @@ class FileUtils:
         Raises:
             FileNotFoundError: If the file is not found in the given directory.
         """
-        file_path = Path(base_dir).resolve() / f"{file_name}.txt"
+        file_path = Path(base_dir).resolve() / f"{file_name}.{ext}"
         if not file_path.exists():
             raise FileNotFoundError(f"The file '{file_path}' does not exist.")
         return file_path.read_text(encoding="utf-8").strip()

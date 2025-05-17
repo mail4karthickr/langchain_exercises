@@ -12,7 +12,7 @@ class LLM:
             openai_api_key=st.session_state.openai_api_key
         )
     
-    def openai_gpt4o(self, temperature):
+    def openai_gpt4o(self, temperature = 0.0):
         return ChatOpenAI(
             model_name="gpt-4o",
             temperature=temperature,
